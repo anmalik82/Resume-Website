@@ -46,7 +46,10 @@
 
 /*------------------------------------------------Special Paddings/Margins/Text*/
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin:0;
 }
 .uppercase{
@@ -86,7 +89,7 @@ header{
 }
 
 .logo{
-    background:url("../images/ali.jpg");
+    background:url("../images/pic_cv.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +109,7 @@ header{
     
 }
 
-h2 {
+.title {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
@@ -130,7 +133,7 @@ h2 {
 }
 
 .menuitem a{
-    width: 100px;
+    width: 100%;
     text-decoration: none;
     color: #ffffff;
     height: 120px;
@@ -157,7 +160,7 @@ h2 {
 /*------------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
@@ -179,16 +182,12 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover{
-    color:#e84f610;
+    color:#e84610;
     transition:all 0.35s ease-in-out;
-}
-
-footer{
-    color: #e84610;
-    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    
 }
 
 .social-links {
