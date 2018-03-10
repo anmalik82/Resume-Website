@@ -2,17 +2,17 @@ function initMap() {
      var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
         center: {
-            lat: 43.619261,
-            lng: -43.134766
+            lat: 52.3702,
+            lng: 4.8952
         }
-    });
+    });  
         
     var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
         
     var locations = [
-            {lat: 40.785091, lng: -73.968285}, 
-            {lat: 41.084045, lng: -73.874256}, 
-            {lat: 40.754932, lng: -73.984016}
+            {lat: 52.365725, lng:  4.898550},  
+            {lat: 52.341446, lng:  4.890543}, 
+            {lat: 52.370515, lng:  4.899793}  
     ];
             
     var markers = locations.map(function(location, i) {
